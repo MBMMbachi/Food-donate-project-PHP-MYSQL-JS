@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="sticky-top">
+        <div class="logo">Food <b style="color: #06C167;">Donate</b></div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="home.html" >Home</a></li>
+                <li><a href="#about" class="active" >About</a></li>
+                <li><a href="contact.html" >Contact</a></li>
+                <li><a href="profile.php" >Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburger=document.querySelector(".hamburger");
+        hamburger.onclick =function(){
+            navBar=document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    <style>
+       
+        
+        .coverc{
+          width: 100%;
+          height: 400px;
+          background:url('img/about3.jpg')no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items:center;
+    padding-top: 8rem;
+ 
+        } 
+        .title{
+          font-size: 38px;
+          text-align: center;
+          align-items: center; 
+        }
+       
+        .para p{
+            font-size: 23px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+          @media (max-width: 767px) {
+            .para p{
+               font-size: 16px;
+               /* margin-left: 10px; */
+              }
+            #pptslide{
+                height: 200px;
+                width: 300px;
+
+            }
+            #map{
+              height: 200px;
+                width: 300px;
+
+
+            }
+            #overview{
+              height: 200px;
+                width: 300px;
+            }
+            
+        .title{
+          font-size: 28px;
+          margin: 10px;
+          text-align: center;
+          align-items: center; 
+        }
+       
+
+          }
+     
+    </style>
+    <br>
+    <br>
+    <!-- <section class="coverc">
+        
+    
+    </section> -->
+    <p class="title">"Welcome to <u> Food Donate</u> "</p>
+    <br>
+    <br>
+    <br>
+        <p class="heading">About us</p>
+        <!-- <p  style=" font-size:30px ; text-align: center;" > ABOUT <span>US</span> </p> -->
+      
+        <!-- <br> -->
+      <div class="para">
+        <!-- <p>"Welcome to Food Donate, India's largest and most trusted donating platform that connects donors to verified nonprofits. FoodDonate helps you become a ray of hope for people in need. Choose a cause that is close to your heart and join hands with millions of donors like you who aim to make this world a better place."</p> -->
+      
+        <p>We are a team of passionate individuals committed to addressing the issue of food waste in India. Our goal is to create a system that connects food donors with charities and NGOs, while also reducing the environmental impact of food waste.</p>
+      </div>
+      <br>
+ 
+      
+    
+      <br>
+      
+
+
+<div class="map"  style="  text-align: center; padding-bottom: 50px;" >
+<p  style=" font-size:30px ;" > Location  </p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.8997335299164!2d75.62925444696273!3d13.733652526992921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbb03901afd806b%3A0x11265e200bb8c5e4!2sUniversity%20Shrimad%20Rambhapuri%20College%20Of%20Arts%20And%20Commerce!5e0!3m2!1sen!2sin!4v1721749581576!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!-- About 1 - Bootstrap Brain Component -->
+<section class="py-3 py-md-5">
+  <div class="container">
+    <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6 col-xl-5">
+        <img class="img-fluid rounded" loading="lazy" src="bachi.jpg" alt="About 1">
+      </div>
+      <div class="col-12 col-lg-6 col-xl-7">
+        <div class="row justify-content-xl-center">
+          <div class="col-12 col-xl-11">
+            <h2 class="mb-3">Who Are you?</h2>
+            <h1>MAHAMAD BASHEER M</h1>
+            <p class="lead fs-4 text-secondary mb-3">I am a BCA student at USMR College, Shankaraghatta. I specialize in both front-end and back-end development. I designed this website to facilitate food donations and help those in need..</p>
+            <p class="mb-5">My website, Food Donation Management System, is designed to help those in need by facilitating food donations. It serves as a platform for people to donate food to those who require it most. The website aims to connect donors and recipients, ensuring that food reaches those who need it.</p>
+            <div class="row gy-4 gy-md-0 gx-xxl-5X">
+              <div class="col-12 col-md-6">
+                <div class="d-flex">
+                  <div class="me-4 text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-gear-fill" viewBox="0 0 16 16">
+                      <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="h4 mb-3">Versatile Brand</h2>
+                    <p class="text-secondary mb-0">We are crafting a digital method that subsists life across all mediums.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="d-flex">
+                  <div class="me-4 text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-fire" viewBox="0 0 16 16">
+                      <path d="M8 16c3.314 0 6-2 6-5.5 0-1.5-.5-4-2.5-6 .25 1.5-1.25 2-1.25 2C11 4 9 .5 6 0c.357 2 .5 4-2 6-1.25 1-2 2.729-2 4.5C2 14 4.686 16 8 16Zm0-1c-1.657 0-3-1-3-2.75 0-.75.25-2 1.25-3C6.125 10 7 10.5 7 10.5c-.375-1.25.5-3.25 2-3.5-.179 1-.25 2 1 3 .625.5 1 1.364 1 2.25C11 14 9.657 15 8 15Z" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="h4 mb-3">Digital Agency</h2>
+                    <p class="text-secondary mb-0">We believe in innovation by merging primary with elaborate ideas.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+     <!-- <p class="heading"> Our Story</p>
+     <div class="para">
+       <p>Our journey began with a realization that food waste is a significant problem in India. According to a report by the United Nations, India is the world's second-largest food producer, yet it also has one of the highest rates of food waste. This waste has a significant impact on the environment, as well as on food security in the country.</p>
+     </div> -->
+     <!-- <div class="overview"  style="  text-align: center; padding-bottom: 50px;" >
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=1400 height=800 src="https://edrawcloudpublicus.s3.amazonaws.com/viewer/self/3094230/share/2023-3-2/1677763924/main.svg" id="overview"></iframe>
+     </div> -->
+     <footer class="footer">
+      <div class="footer-left col-md-4 col-sm-6">
+        <p class="about">
+          <span> About us</span>The basic concept of this project Food Waste Management is to collect the excess/leftover
+          food from donors such as hotels, restaurants, marriage halls , etc and distribute to the needy people .
+        </p>
+  
+      </div>
+      <div class="footer-center col-md-4 col-sm-6">
+        <div>
+          <p><span> Contact</span> </p>
+  
+        </div>
+        <div>
+          <p>Mahamad Basheer M</p><br>
+          <p> (+91) 6362 564 574</p>
+  
+        </div>
+        <div>
+          <!-- <i class="fa fa-envelope" style="font-size: 17px;
+              line-height: 38px; color:white;"></i> -->
+          <p><a href="#"> Fooddonate@gmail.com</a></p>
+        </div>
+  
+        <div class="sociallist">
+          <ul class="social">
+            <li><a href="https://www.facebook.com/TheAkshayaPatraFoundation/"><img
+                  src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+            <li><a href="https://twitter.com/globalgiving"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+            <li><a href="https://www.instagram.com/charitism/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+            <li><a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp"
+                  style="font-size:50px;color: black;"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-right col-md-4 col-sm-6">
+        <h2> Food<span> Donate</span></h2>
+        <!-- <h2>Food donate</h2> -->
+        <p class="menu">
+          <a href="#"> Home</a> |
+          <a href="about.html"> About</a> |
+          <a href="profile.php"> Profile</a> |
+          <a href="contact.html"> Contact</a>
+        </p>
+        <p class="name"> Food Donate &copy 2024 | Mahamad Basheer M</p>
+      </div>
+    </footer>
+</body>
+</html>
