@@ -1,2 +1,7 @@
 How to Run the project ?
-*first clone the git in to VS code 
+*first clone the git in to VS code .
+*In VS code to Marge ALL file in to Food-donate folder.
+
+**********************************
+more informaction to Contact my mail:-
+basheerbach1012@gmail.com
