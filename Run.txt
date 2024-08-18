@@ -1,0 +1,2 @@
+How to Run the project ?
+*first clone the git in to VS code 
